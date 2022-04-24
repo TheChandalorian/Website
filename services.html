@@ -12,44 +12,239 @@ Modifications:
         <meta name="description" content="List of Services">
         <meta name="keywords" content="Hair,Hair Salon,Hair Services,Hair Cuts,Hair Wash,Blow Dry,Salon,Chandler's,">
         <title>Chandler's || Services</title>
-        <link rel="icon" type="image/x-icon" href="Images/">
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
         <link rel="stylesheet" type="text/css" href="Styles/style.css"/> <!--Link to external css mainstyle file-->
+        <style>
+            .ltable {
+                width: 42%;                
+                border: 4px solid purple;                
+            }
+
+            .mtable {
+                width: 52%;
+                margin-left: 10px;
+                border: 4px solid purple;
+            }
+
+            tr:nth-child(even) {
+                background-color: rgba(0, 0, 7, 0.4);
+            }
+
+            th:nth-child(even),td:nth-child(even) {
+                background-color: rgba(0, 0, 7, 0.4);
+}
+        </style>
+       
     
     </head>
 <body> <!-- Body Tag start of body section encoding capable of encoding all possible characters-->
-        <header>
-            <img id="mainlogo" src="images/mainlogo.png" alt="logo" width="290" height="200">
-        </header>
-
-        <!--<div>
-            <i class="fa fa-instagram fa-4x"></i>
-            <a title="visit my instagram page" href="https://www.instagram.com/92chandler/">
-            <i class="fab fa-linkedin fa-4x"></i>
-            <a title="visit my linkedin page" href="https://www.linkedin.com/in/chandler-tyrrell-451276183/">
-        </div> -->
+    <a id="top"></a>
+    
+    <header>
+        <img id="mainlogo" src="images/mainlogo.png" alt="logo" width="290" height="200">
+    </header>
     
         <nav> <!-- Navigation to other pages-->
             <ul>
-                <li id="active"> <a href="index.html"></a>Home</li>
+                <li> <a href="index.html">Home</a></li>
                 <li> <a href="about.html">About</a></li>
-                <li> <a href="services.html">Services</a></li>
+                <li  id="active"> <a href="services.html"></a>Services</li>
                 <li> <a href="book.html">Book</a></li>
                 <li> <a href="contact.html">Contact Us</a></li>
             </ul>
         </nav> 
+    <a class="links" href="#bottom">Go To Bottom</a>
+    <main>
+        <div>
+        <h1>Ladies Services</h1>
+        <table class="ltable" style="float: left;">
+            <tr>
+                <th></th>
+                <th>Manager<br>&euro; from</th>
+                <th>Assistant Manager<br>&euro; from</th>
+                <th>Senior Stylist<br>&euro; from</th>
+                <th>Stylist<br>&euro; from</th>
+            </tr>
+            <tr>
+                <td>Cut & Finish</td>
+                <td>&euro;70</td>
+                <td>&euro;65</td>
+                <td>&euro;60</td>
+                <td>&euro;50</td>
+            </tr>
+            <tr>
+                <td>Wash & Style, Short</td>
+                <td>&euro;40</td>
+                <td>&euro;35</td>
+                <td>&euro;30</td>
+                <td>&euro;25</td>
+            </tr>
+            <tr>
+                <td>Wash & Style, Medium</td>
+                <td>&euro;45</td>
+                <td>&euro;40</td>
+                <td>&euro;35</td>
+                <td>&euro;30</td>
+            </tr>
+            <tr>
+                <td>Wash & Style, Long</td>
+                <td>&euro;50</td>
+                <td>&euro;45</td>
+                <td>&euro;40</td>
+                <td>&euro;35</td>
+            </tr>
+            <tr>
+                <td>Wet Cut</td>
+                <td>&euro;40</td>
+                <td>&euro;35</td>
+                <td>&euro;30</td>
+                <td>&euro;25</td>
+            </tr>
+            <tr>
+                <td>Hair Up, Short</td>
+                <td>&euro;45</td>
+                <td>&euro;40</td>
+                <td>&euro;35</td>
+                <td>&euro;30</td>
+            </tr>
+            <tr>
+                <td>Hair Up, Medium</td>
+                <td>&euro;50</td>
+                <td>&euro;45</td>
+                <td>&euro;40</td>
+                <td>&euro;35</td>
+            </tr>
+            <tr>
+                <td>Hair Up, Long</td>
+                <td>&euro;55</td>
+                <td>&euro;50</td>
+                <td>&euro;45</td>
+                <td>&euro;40</td>
+            </tr>
+            <tr>
+                <td>Shampoo & Set</td>
+                <td>&euro;35</td>
+                <td>&euro;30</td>
+                <td>&euro;25</td>
+                <td>&euro;20</td>
+            </tr>
+        </table>
 
+        <table class="ltable" style="float: right;">
+            <tr>
+                <th></th>
+                <th>Manager<br>&euro; from</th>
+                <th>Assistant Manager<br>&euro; from</th>
+                <th>Senior Stylist<br>&euro; from</th>
+                <th>Stylist<br>&euro; from</th>
+            </tr>
+            <tr>
+                <td>Colour & Highlights</td>
+                <td>&euro;110</td>
+                <td>&euro;100</td>
+                <td>&euro;90</td>
+                <td>&euro;80</td>
+            </tr>
+            <tr>
+                <td>Full Head of Highlights</td>
+                <td>&euro;90</td>
+                <td>&euro;80</td>
+                <td>&euro;70</td>
+                <td>&euro;60</td>
+            </tr>
+            <tr>
+                <td>Half Head of Highlights</td>
+                <td>&euro;70</td>
+                <td>&euro;60</td>
+                <td>&euro;50</td>
+                <td>&euro;40</td>
+            </tr>
+            <tr>
+                <td>Semi-Perminent Colour</td>
+                <td>&euro;70</td>
+                <td>&euro;60</td>
+                <td>&euro;50</td>
+                <td>&euro;40</td>
+            </tr>
+            <tr>
+                <td>Balayage</td>
+                <td>&euro;80</td>
+                <td>&euro;70</td>
+                <td>&euro;60</td>
+                <td>&euro;50</td>
+            </tr>
+        </table>
+        </div>
+
+        <div>
+        <h1>Mens Services</h1>
+            <table class="mtable" style="position: static;">
+                <tr>
+                    <th></th>
+                    <th>Manager<br>&euro; from</th>
+                    <th>Assistant Manager<br>&euro; from</th>
+                    <th>Senior Stylist<br>&euro; from</th>
+                    <th>Stylist<br>&euro; from</th>
+                </tr>
+                <tr>
+                    <td>Scissor Cut</td>
+                    <td>&euro;25</td>
+                    <td>&euro;20</td>
+                    <td>&euro;20</td>
+                    <td>&euro;15</td>
+                </tr>
+                <tr>
+                    <td>Clipper Cut</td>
+                    <td>&euro;30</td>
+                    <td>&euro;25</td>
+                    <td>&euro;25</td>
+                    <td>&euro;20</td>
+                </tr>
+                <tr>
+                    <td>Skin Fade</td>
+                    <td>&euro;35</td>
+                    <td>&euro;30</td>
+                    <td>&euro;30</td>
+                    <td>&euro;25</td>
+                </tr>
+                <tr>
+                    <td>Beard Trim</td>
+                    <td>&euro;15</td>
+                    <td>&euro;10</td>
+                    <td>&euro;10</td>
+                    <td>&euro;5</td>
+                </tr>
+                <tr>
+                    <td>Kids Cut (Under 12)</td>
+                    <td>&euro;20</td>
+                    <td>&euro;15</td>
+                    <td>&euro;15</td>
+                    <td>&euro;10</td>
+                </tr>
+
+            </table>
+            </div>
+
+            <div style="text-align:center">
+                <a href="book.html"><button id="button">Click here to make an appointment</button></a>
+            </div>
+
+
+    </main>
+    <a class="links" href="#top">Go To Top</a>
+    <a id="bottom"></a>
 
         
 
         <footer> <!-- Footer grouping content for the bottom of the screen will need css to place at the bottom-->
             <ul>
-                <li> <a href="home.html">Home</a></li>
+                <li> <a href="index.html">Home</a></li>
                 <li> <a href="about.html">About</a></li>
                 <li> <a href="services.html">Services</a></li>
                 <li> <a href="book.html">Book</a></li>
                 <li> <a href="contact.html">Contact Us</a></li>
             </ul>
-            <small>&copy;2022 Chander's</small>
+            <small>&copy;2022 Chandler's</small>
         </footer>
 
                     
